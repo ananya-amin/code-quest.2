@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.centerdiv{
+  
+  display: flex;
+  justify-content: center;
+  align-content: end;
+}
+a.logo{
+    height: 40px;
+    width:40px;
+    background-color: #f5f6fa;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 1px 4px 2px 2px rgb(102, 63, 138);
+    color: #fff;
+    line-height: 40px;
+
+}
+
+a.logo:hover{
+  transform: scale(1.4);
+}
+.fa-instagram{
+  color: #e84393;
+}
+.fa-youtube{
+  color: #e84118;
+
+}
+.fa-linkedin{
+  color:#0097e6;
+}
+.fa-twitter{
+  color: #0097e6;
+}
+.fa-facebook{
+  color: #1877f2;
+}
+
+h3{
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding:0;
+}
+
+nav ul li {
+  margin-right: 10px;
+  display: inline;
+}
+
+nav .dropdown {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none; 
+  color: rgb(53, 23, 112);
+  font-weight: bold;
+}
+
+nav .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+
+}
+
+nav .dropdown-content a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+
+}
+
+nav .dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+
+nav .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+body{
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('1.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+
+}
+
+header {
+  background-color: rgb(53, 23, 112);
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  padding: 1rem;
+}
+
+button {
+  background-color: rgb(58, 26, 122);
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 370px;
+}
+.login-container{
+  background-color: #fff;
+  padding: 20px;
+  font-size: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height:250px;
+  gap: 15px;
+}
+
+input,
+select,
+button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.forgot-password {
+  text-align: center;
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.teacher-dashboard,
+.student-dashboard {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-section img {
+  width: 150px;
+  height: 150px;
+  border-radius: 25%;
+  object-fit: cover;
+  padding: 50px;
+}
+
+.logout-btn {
+  display: block;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #f44336;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.admin-dashboard {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact1{
+  padding: 1rem;
+  position: fixed;
+  margin:50px;
+  border-top: 50px;
+}
+
+.student-dashboard {
+  max-width: 400px;
+  margin: autopx;
+  margin-top: 40px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgb(172, 157, 202);
+    color: black;
+}
+
+.student-details{
+  margin:40px;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.student-details img {
+  width: 100px;
+  height: 100px;
+  border-radius: 25%;
+  object-fit: cover;
+  padding: 50px;
+  
+}
